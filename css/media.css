@@ -1,0 +1,99 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 95%;
+    }
+
+    .skills-wrapper {
+        row-gap: 30px;
+        justify-content: space-around;
+    }
+
+    .skills-block {
+        width: 47%;
+    }
+
+    .portfolio-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    h2 {
+        text-align: center;
+    }
+
+    .nav-list {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 90%;
+        margin: auto;
+        
+    }
+
+    .nav-item {
+        padding: 0 10px;
+    }
+
+    .main-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-top img {
+        margin: auto;
+    }
+    .contacts-block {
+        flex-wrap: wrap;
+    }
+    .contacts p {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .education-list,
+    .experience-list {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .education-item,
+    .experience-item,
+    .skills-block {
+        width: 100%;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer p {
+        justify-content: center;
+    }
+}
+
+@media(max-width:500px) {
+    .nav-list {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 90%;
+        margin: auto;
+        row-gap: 15px;
+        
+    }
+
+    .buttons-block {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .buttons-block a {
+        width: 100%;
+    }
+}
